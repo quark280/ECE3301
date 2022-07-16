@@ -1,0 +1,44 @@
+__S0 2000 0 ABS 0
+__S1 0 0 ABS 0
+__Hudata_acs 4 0 ABS 0
+__Ludata_acs 4 0 ABS 0
+__Hcode 4 0 ABS 0
+__Lcode 4 0 ABS 0
+__Hdata 4 0 ABS 0
+__Ldata 4 0 ABS 0
+__Hudata_bank0 4 0 ABS 0
+__Ludata_bank0 4 0 ABS 0
+__Hedata 2 0 EEDATA 3
+__Ledata 0 0 EEDATA 3
+__Hudata 4 0 ABS 0
+__Ludata 4 0 ABS 0
+__Hudata_bank1 4 0 ABS 0
+__Ludata_bank1 4 0 ABS 0
+__Hspace_0 2000 0 ABS 0
+__Lspace_0 0 0 ABS 0
+__Hspace_1 0 0 ABS 0
+__Lspace_1 0 0 ABS 0
+__Hspace_3 2 0 ABS 0
+__Lspace_3 0 0 ABS 0
+%segments
+code 1FE0 1FFF CODE 1FE0 0
+data 1FD6 1FDF CONST 1FD6 0
+%locals
+build/default/production/FirstEx.o
+C:\\Program Files\\Microchip\\xc8\\v2.20\\pic\\include\\proc\\pic18f4321.inc
+FirstEx.s
+12 1FE0 0 CODE 0
+13 1FE0 0 CODE 0
+14 1FE2 0 CODE 0
+15 1FE4 0 CODE 0
+16 1FE6 0 CODE 0
+17 1FE8 0 CODE 0
+18 1FEA 0 CODE 0
+21 1FEC 0 CODE 0
+22 1FF0 0 CODE 0
+23 1FF2 0 CODE 0
+24 1FF4 0 CODE 0
+25 1FF6 0 CODE 0
+26 1FFA 0 CODE 0
+27 1FFC 0 CODE 0
+30 1FFE 0 CODE 0

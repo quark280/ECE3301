@@ -1,0 +1,32 @@
+__S0 0 0 ABS 0
+__S1 0 0 ABS 0
+__S3 F00002 0 ABS 0
+__Hudata_acs 0 0 ABS 0
+__Ludata_acs 0 0 ABS 0
+isa$xinst 0 0 ABS 0
+__Hcode 0 0 ABS 0
+__Lcode 0 0 ABS 0
+__Hdata 0 0 ABS 0
+__Ldata 0 0 ABS 0
+isa$std 1 0 ABS 0
+__Hudata_bank0 0 0 ABS 0
+__Ludata_bank0 0 0 ABS 0
+__Hedata 0 0 ABS 0
+__Ledata 0 0 ABS 0
+__Hudata 0 0 ABS 0
+__Ludata 0 0 ABS 0
+__Hudata_bank1 0 0 ABS 0
+__Ludata_bank1 0 0 ABS 0
+__Hspace_0 0 0 ABS 0
+__Lspace_0 0 0 ABS 0
+__Hspace_1 0 0 ABS 0
+__Lspace_1 0 0 ABS 0
+__Hspace_3 F00002 0 ABS 0
+__Lspace_3 0 0 ABS 0
+%segments
+edata 1E00000 1E00003 EEDATA 1E00000 3
+%locals
+build/default/debug/Lab0_Example.o
+C:\\Program Files\\Microchip\\xc8\\v2.36\\pic\\include\\proc\\pic18f4321.inc
+build/default/debug/LAB1.o
+C:\\Program Files\\Microchip\\xc8\\v2.36\\pic\\include\\proc\\pic18f4321.inc

@@ -1,0 +1,93 @@
+Microchip MPLAB XC8 PIC(R) Assembler V2.20
+
+Linker command line:
+
+-W-3 --edf=C:\Program Files\Microchip\xc8\v2.20\pic\dat\en_msgs.txt -cs \
+  -h+dist/default/production\ECE3301_LAB0.X.production.sym \
+  --cmf=dist/default/production\ECE3301_LAB0.X.production.cmf -z -Q18F4321 \
+  -oC:\Users\Nat\AppData\Local\Temp\se14.2 -ver=XC8 PIC(R) Assembler \
+  -Mdist/default/production/ECE3301_LAB0.X.production.map -E1 --acfsm=1493 \
+  -ACODE=00h-01FFFh -ACONST=00h-01FFFh -ASMALLCONST=0200h-02FFhx30 \
+  -AMEDIUMCONST=0200h-01FFFh -ACOMRAM=00h-07Fh -AABS1=00h-01FFh \
+  -ABIGRAM=00h-01FFh -ARAM=080h-0FFh,0100h-01FFh -ABANK0=080h-0FFh \
+  -ABANK1=0100h-01FFh -ASFR=0F80h-0FFFh -ACONFIG=0300000h-030000Dh \
+  -AIDLOC=0200000h-0200007h build/default/production/Lab0_Example.o \
+  build/default/production/LAB1.o 
+
+Object code version is 3.11
+
+Machine type is 18F4321
+
+
+
+                Name                               Link     Load   Length Selector   Space Scale
+build/default/production/Lab0_Example.o
+                edata                                 0        0        6        0       3
+build/default/production/LAB1.o
+                edata                                 6        6        6        0       3
+
+TOTAL           Name                               Link     Load   Length     Space
+        CLASS   CODE           
+
+        CLASS   CONST          
+
+        CLASS   SMALLCONST     
+
+        CLASS   MEDIUMCONST    
+
+        CLASS   COMRAM         
+
+        CLASS   ABS1           
+
+        CLASS   BIGRAM         
+
+        CLASS   RAM            
+
+        CLASS   BANK0          
+
+        CLASS   BANK1          
+
+        CLASS   SFR            
+
+        CLASS   CONFIG         
+
+        CLASS   IDLOC          
+
+        CLASS   EEDATA         
+                edata                                 0        0        C         3
+
+
+
+SEGMENTS        Name                           Load    Length   Top    Selector   Space  Class
+
+
+
+UNUSED ADDRESS RANGES
+
+        Name                Unused          Largest block    Delta
+        BANK0            80-FF           80
+        BANK1            100-1FF          100
+        BIGRAM           00-1FF          200
+        CODE             00-1FFF         2000
+        COMRAM           00-7F           80
+        CONFIG           300000-30000D            E
+        CONST            00-1FFF         2000
+        IDLOC            200000-200007            8
+        MEDIUMCONST      200-1FFF         1E00
+        RAM              80-1FF           80
+        SFR              F80-FFF           80
+        SMALLCONST       200-1FFF          100
+
+                                  Symbol Table
+
+__Hcode        code        18  __Hdata        data        18
+__Hedata       edata       0C  __Hspace_0     (abs)       18
+__Hspace_1     (abs)       00  __Hspace_3     (abs)       0C
+__Hudata       udata       18  __Hudata_acs   udata_acs   18
+__Hudata_bank0 udata_bank0 18  __Hudata_bank1 udata_bank1 18
+__Lcode        code        18  __Ldata        data        18
+__Ledata       edata       00  __Lspace_0     (abs)       00
+__Lspace_1     (abs)       00  __Lspace_3     (abs)       00
+__Ludata       udata       18  __Ludata_acs   udata_acs   18
+__Ludata_bank0 udata_bank0 18  __Ludata_bank1 udata_bank1 18
+__S0           (abs)       00  __S1           (abs)       00
